@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif; }
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh; }
+
+.card {
+  width: 37.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
+  background-color: #fff; }
+  .card__img-back {
+    border-radius: 1.5rem 1.5rem 0 0;
+    width: 100%; }
+  .card__info {
+    text-align: center;
+    margin-bottom: 3rem; }
+    .card__info-img {
+      margin-top: -5.8rem;
+      border: .5rem solid #fff;
+      border-radius: 50%;
+      margin-bottom: 2.5rem; }
+    .card__info-data {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem; }
+    .card__info-age {
+      color: #6a6f81;
+      font-weight: 400; }
+    .card__info-country {
+      color: #6a6f81;
+      font-size: 1.5rem; }
+  .card__social {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-around;
+    border-top: 1px solid #ddd; }
+
+.number-followers {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 700; }
+
+.text-type {
+  margin-top: .5rem;
+  color: #6a6f81;
+  letter-spacing: 2px;
+  text-align: center; }
